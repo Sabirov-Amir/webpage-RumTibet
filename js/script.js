@@ -1,5 +1,4 @@
 
-
 //-----------------------------------------------------------------------------------------------------------------------------------------
 
 // Menu burger on JavaScript
@@ -16,8 +15,7 @@ if (headerBurger) {
 
 // ------------------------------------------------------------------------------------------------------------------
 
-// Select
-
+// Select 
 const selectSingle = document.querySelector('.header__select');
 const selectSingle_title = selectSingle.querySelector('.header__select-title');
 const selectSingle_labels = selectSingle.querySelectorAll('.header__select-label');
@@ -38,3 +36,5 @@ for (let i = 0; i < selectSingle_labels.length; i++) {
     selectSingle.setAttribute('data-state', '');
   });
 }
+
+// ------------------------------------------------------------------------------------------------------------------

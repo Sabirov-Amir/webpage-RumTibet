@@ -132,7 +132,6 @@ body.lock {
 }
 .header__link a {
   color: #FDFDFD;
-  font-family: "Nunito Sans", sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 20px;
@@ -306,4 +305,57 @@ body.lock {
   letter-spacing: 0.192px;
   border-radius: 4px;
   background-color: #1A3E3E;
+}
+
+.tour {
+  margin: 100px 0px;
+}
+.tour__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.tour__image {
+  position: relative;
+  margin-right: 250px;
+}
+.tour__image-back {
+  position: relative;
+  z-index: 1;
+}
+.tour__image-front {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  top: 126px;
+  left: 130px;
+}
+.tour__info {
+  margin-top: 64px;
+}
+.tour__suptitle {
+  color: #F2BE22;
+  font-size: 24px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+.tour__title {
+  color: #18121E;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 38.4px;
+  margin-bottom: 40px;
+}
+.tour__text {
+  color: #18121E;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 40px;
+}
+.tour__button {
+  width: 200px;
+  margin-bottom: 64px;
+}
+.tour__button a {
+  height: 52px;
 }

@@ -95,7 +95,7 @@
   .header__link {
     position: relative;
     width: 125px;
-    margin: 0px 0px 25px 0px;
+    margin: 0px 0px 30px 0px;
   }
   .header__link:first-child {
     display: none;
@@ -105,7 +105,6 @@
   }
   .header__link a {
     color: #fff;
-    font-family: "Nunito Sans", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 18px;
@@ -117,7 +116,7 @@
     height: 100%;
     background-image: url(../img/header/menu-link-active.svg);
     background-repeat: no-repeat;
-    margin: 0px 0px 0px -15px;
+    margin: 0px 0px 0px -18px;
   }
   .header__button-top {
     display: none;
@@ -176,5 +175,69 @@
     letter-spacing: 0.192px;
     border-radius: 4px;
     background-color: #1A3E3E;
+  }
+  .tour {
+    margin: 50px 0px;
+  }
+  .tour__wrap {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+  .tour__image {
+    position: relative;
+    margin-right: 0px;
+    width: 100%;
+  }
+  .tour__image-back {
+    position: relative;
+    z-index: 1;
+    display: none;
+  }
+  .tour__image-front {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .tour__image-front img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 0px 0px;
+       object-position: 0px 0px;
+  }
+  .tour__info {
+    margin-top: 0px;
+  }
+  .tour__suptitle {
+    color: #F2BE22;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 8px;
+  }
+  .tour__title {
+    color: #18121E;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 28.8px;
+    margin-bottom: 24px;
+  }
+  .tour__text {
+    color: #18121E;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+  }
+  .tour__button {
+    width: 200px;
+    margin: 0px auto 40px;
+  }
+  .tour__button a {
+    height: 52px;
   }
 }
